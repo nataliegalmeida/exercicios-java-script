@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>Desafio JS</title>
 </head>
 
@@ -18,11 +18,24 @@
             <div class="container__informacoes">
                 <div class="container__texto">
                     <h2>Boas vindas ao desafio de programação!</h2>
+                    <p>Escolha um exercício para testar:</p>
                 </div>
+
+                <!-- Botões de Exercícios -->
+                <div class="botoes__exercicios">
+                    <button onclick="exibirOlaMundo()" class="container__botao">1. Olá Mundo</button>
+                    <button onclick="exibirNome()" class="container__botao">2. Olá, Nome</button>
+                    <button onclick="exibirDobro()" class="container__botao">3. Dobro de um número</button>
+                    <button onclick="exibirMedia()" class="container__botao">4. Média de 3 números</button>
+                    <button onclick="exibirMaiorNumero()" class="container__botao">5. Maior entre dois</button>
+                    <button onclick="exibirQuadrado()" class="container__botao">6. Número ao quadrado</button>
+                </div>
+
                 <img src="./img/trophy.png" alt="ícone de um troféu" />
             </div>
         </div>
     </div>
+
     <script src="app.js" defer></script>
 </body>
 
